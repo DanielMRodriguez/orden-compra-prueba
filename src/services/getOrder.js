@@ -1,16 +1,17 @@
 export default function getOrder() {
-  //   const TOKEN = `Bearer nliSTFzaDZCSDJZRCIsImlhdCI6MTU4NTkzMjYzNDU0OH0.tMSht_M3ryQl5IqCirhYR1gb8j3FQ26vILT4Qpx4XrdFz-zUmqbgFYiKTaZHPpB85etRIMhxVoZf6tOrHy0fnAUsted`;
-  //   const URL = "https://eshop-deve.herokuapp.com/api/v2/orders/2117155815564";
+  // const TOKEN = `Bearer nliSTFzaDZCSDJZRCIsImlhdCI6MTU4NTkzMjYzNDU0OH0.tMSht_M3ryQl5IqCirhYR1gb8j3FQ26vILT4Qpx4XrdFz-zUmqbgFYiKTaZHPpB85etRIMhxVoZf6tOrHy0fnAUsted`
+  // const URL = 'https://eshop-deve.herokuapp.com/api/v2/orders/2117155815564'
 
-  //   let requestInit = {
-  //     method: "GET",
-  //     headers: {
-  //       Authorization: TOKEN,
-  //     },
-  //   };
-  //   return fetch(URL, requestInit)
-  //     .then(response => response.json())
-  //     .then(data => console.log(data));
+  // let requestInit = {
+  //   method: 'GET',
+  //   headers: {
+  //     Authorization: TOKEN
+  //   }
+  // }
+  // return  fetch(URL, requestInit)
+  //   .then(response => response.json())
+  //   .then(data => data)
+  //   .catch(error => error)
 
   return [
     {

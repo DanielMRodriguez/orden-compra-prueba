@@ -32,7 +32,12 @@
             v-model="product.quantity"
           />
           <div class="separator"></div>
-          <a href="#" class="text-danger eliminar-product">eliminar</a>
+          <a
+            href="#"
+            class="text-danger eliminar-product"
+            v-on:click="$emit('deleteProduct', index)"
+            >eliminar</a
+          >
         </div>
       </div>
       <h4>{{ product.price | price }}</h4>
@@ -43,7 +48,7 @@
 <script>
 export default {
   name: 'Product',
-  props: ['product']
+  props: ['product', 'index']
 }
 </script>
 
