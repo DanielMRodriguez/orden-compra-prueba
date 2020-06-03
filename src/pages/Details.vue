@@ -4,6 +4,7 @@
       <div class="row">
         <div class="col-12 py-2">
           <h1 class="text-primary">Orden de compra</h1>
+          <router-link to="/" class="btn btn-secondary">Volver</router-link>
         </div>
         <div class="col-8">
           <h2 class="text-secondary">Carrito</h2>
@@ -12,7 +13,7 @@
         </div>
         <hr />
         <div class="col-8">
-          <div class="list-group shadow">
+          <div class="list-group ">
             <div
               v-for="(item, index) in products"
               v-bind:key="item.sku"

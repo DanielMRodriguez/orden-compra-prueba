@@ -1,5 +1,5 @@
 <template>
-  <div class="add-content shadow">
+  <div class="add-content ">
     <form class="formulario fomr-group row">
       <div class="col-12 form-group">
         <label for="name">Nombre</label>

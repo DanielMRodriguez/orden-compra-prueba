@@ -1,5 +1,5 @@
 <template>
-  <div class="total-content shadow">
+  <div class="total-content ">
     <div class="my-2">
       <h3 class="subtotal text-primary">Subtotal:</h3>
       <h3 class="subtotal-cant ">{{ total | price }}</h3>

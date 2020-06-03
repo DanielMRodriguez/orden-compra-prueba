@@ -16,18 +16,16 @@
               </thead>
               <tbody>
                 <tr v-bind:key="index" v-for="(order, index) in orders">
-                  <td class="pl-0 text-center">
-                    <a
-                      href="#"
-                      class="text-dark-75 font-weight-bolder text-hover-primary mb-1 font-size-lg"
-                      >{{ order.id }}</a
-                    >
+                  <td class="pt-2 text-center">
+                    <p class="text-center text-hover-primary mb-1">
+                      {{ order.id }}
+                    </p>
                   </td>
                   <td class="text-center">
-                    {{ order.requestName }}
+                    <p class="text-center">{{ order.requestName }}</p>
                   </td>
                   <td>
-                    <p>{{ order.date }}</p>
+                    <p class="text-center">{{ order.date }}</p>
                   </td>
                   <td class="text-center pr-0">
                     <router-link
