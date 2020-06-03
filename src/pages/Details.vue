@@ -95,7 +95,7 @@ export default {
   },
   methods: {
     addProduct: function(item) {
-      console.log(item)
+      // console.log(item)
       this.products.push(item)
     },
     // obtenerDatos: function() {

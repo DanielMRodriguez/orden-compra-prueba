@@ -6,7 +6,7 @@
           <h1>Ordenes de compra</h1>
         </div>
 
-        <div class="col-12 col-md-10">
+        <div class="col-12 ">
           <Tabla></Tabla>
         </div>
       </div>

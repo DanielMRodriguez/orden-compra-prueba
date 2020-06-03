@@ -79,7 +79,7 @@ function getOrder(id) {
   //   .catch(error => error)
   let idOrdern = parseInt(id)
   const found = ORDERS.find(element => element.id == idOrdern)
-  console.log(found)
+  // console.log(found)
   return found.items
 }
 

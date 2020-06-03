@@ -64,7 +64,7 @@ export default {
     // })
 
     this.orders = getOrders()
-    console.log(this.products)
+    // console.log(this.products)
 
     // swal('Good job!', 'You clicked the button!', 'success')
   }

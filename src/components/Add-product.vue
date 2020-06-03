@@ -102,7 +102,7 @@ export default {
     validarDatos: function(name, sku, price, quantity) {
       name = name.trim()
       if (name == '') {
-        console.log(sku, price, quantity)
+        // console.log(sku, price, quantity)
         return { error: true, message: 'Debes llenar el nombre del producto' }
       } else if (name.length < 3) {
         return {
