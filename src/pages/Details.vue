@@ -46,7 +46,7 @@
 import Product from '../components/Product.vue'
 import Total from '../components/Total.vue'
 import AddProduct from '../components/Add-product.vue'
-import getOrder from '../services/getOrder.js'
+import { getOrder } from '../services/servicesOrders.js'
 import swal from 'sweetalert'
 export default {
   components: {
@@ -89,8 +89,7 @@ export default {
     //   return data
     // })
 
-    this.products = getOrder()
-    console.log(this.products)
+    this.products = getOrder(this.$route.params.id)
 
     // swal('Good job!', 'You clicked the button!', 'success')
   },
