@@ -1,8 +1,9 @@
 # Orden de compra
-Projecto hecho de ejemplo de una orden de compra, esta hecho con Vue, utilice las siguientes librerias.
--Bootsrap: https://getbootstrap.com/
--sweetalert:https://sweetalert.js.org/guides/
--además de vue cli incluyendo babel, eslint y prettier
+Proyecto hecho de ejemplo de una orden de compra, esta hecho con Vue, utilice las siguientes librerias.
+* numeral: http://numeraljs.com/
+* Bootsrap: https://getbootstrap.com/
+* sweetalert:https://sweetalert.js.org/guides/ 
+además de vue cli incluyendo babel, eslint y prettier
 
 
 ## Project setup
