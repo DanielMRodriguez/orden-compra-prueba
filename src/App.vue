@@ -3,12 +3,6 @@
 </template>
 
 <script>
-// import Home from "./components/Home.vue";
-// import Product from './components/Product.vue'
-// import Total from './components/Total.vue'
-// import AddProduct from './components/Add-product.vue'
-// import getOrder from './services/getOrder.js'
-
 export default {
   name: 'App'
 }
